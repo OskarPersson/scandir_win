@@ -10,7 +10,7 @@ platform:
   - x64
 
 install:
-  - echo CALL "C:\Program Files\Microsoft SDKs\Windows\v7.1\Bin\SetEnv.cmd" /x64 > C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\amd64\vcvars64.bat
+  - echo CALL "C:\Program Files\Microsoft SDKs\Windows\v7.1\Bin\SetEnv.cmd" /x64 > "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\amd64\vcvars64.bat"
   - "C:\\Python%PYTHON%-x64\\python.exe -m pip install scandir==1.5"
 
 build: off
