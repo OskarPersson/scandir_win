@@ -2,14 +2,9 @@ environment:
 
   matrix:
 
-    - PYTHON: "27"
-
     - PYTHON: "34"
-
-    - PYTHON: "35"
     
-    - PYTHON: "36"
-    
+image: Visual Studio 2015
 
 platform:
   - x64
